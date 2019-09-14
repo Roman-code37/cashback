@@ -15,13 +15,10 @@ public class Main {
                 )/ 100;
         System.out.println(result);
 
-        int cashback;
-        int cashbacklimit = cashback;
-        cashbacklimit = 3_000
-        if (result > 3_000){
-            ;
-        }else {
-            cashback = result;
+        int cashback = result;
+        int cashbacklimit = 3_000;
+        if (result > cashbacklimit);
+        cashback = cashbacklimit;
         }
 
         System.out.println(cashback);
